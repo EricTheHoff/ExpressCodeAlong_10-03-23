@@ -1,0 +1,10 @@
+<div>
+    <h2>Welcome, {{username}}!</h2>
+    <p>Nice job with the bridge. We have {{userColor}} M&Ms for you to enjoy on your quest to {{userQuest}}</p>
+    Don't forget you are
+    <ul>
+        {% for compliment in compliments %}
+            <li>{{ compliment }}</li>
+        {% endfor %}
+    </ul>
+</div>
